@@ -9,6 +9,7 @@
     justify-content: flex-end;
     align-items: center;
 }
+
 .box{
     background-color: #646F7B;
     border-radius: 1.2rem;
@@ -16,16 +17,14 @@
 }
 
 main {
-    height: 100vh;
-    width: 100vw;
+    height: calc(100vh - 70px);
+    overflow-y: auto;
     display: flex;
     background-color: #000000;
-    overflow-y: auto;
 }
 
 div.image{
     position: relative;
-  
 }
 
 .mute{
@@ -52,4 +51,55 @@ p{
 img{
     margin: .25rem;
 }
+
+
+.fa-solid{
+    color:white;
+}
+
+span{
+    color:white
+}
+
+
+header{
+    height: 70px;
+     background-color: #222222;
+ }
+
+.flex-centered{
+    display: flex;
+     justify-content: space-between;
+ }
+
+ header > section{
+     height: 100%;
+     display: flex;
+ }
+
+.button {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: .66rem;
+ }
+
+ div.button > i{
+     font-size: 1.4rem;
+     margin-bottom: .25rem;
+ }
+
+i.fa-chevron-up{
+     font-size: .66rem;
+ }
+
+i.fa-share-from-square{
+     color: #4bc700;
+ }
+
+.end-meeting{
+     background-color: #4a4a4a;
+     color: red;
+ }
 
